@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hyperlink" translatable="false"><a href="https://www.instagram.com/ashishprasad__/">ashishprasad__</a></string>
+</resources>

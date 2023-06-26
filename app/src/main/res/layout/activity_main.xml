@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/player1"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FAFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="151dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/acme"
+        android:onClick="clicked"
+        android:shadowColor="#B2FF59"
+        android:text="Start"
+        android:textColor="#F9FAF7"
+        android:textColorHighlight="#FFFF00"
+        android:textColorHint="#B2FF59"
+        android:textColorLink="#B2FF59"
+        android:textSize="20sp"
+        app:iconTint="#B2FF59"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#B2FF59"
+        app:strokeColor="#B2FF59" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="386dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/alice"
+        android:text="Tic Tac Toe"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FDFDFD"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/player2"
+        android:layout_width="327dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:hint="Opponent Name"
+        android:inputType="text"
+        android:textColor="#F6F6F6"
+        android:textColorHint="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="138dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/acme"
+        android:onClick="meme"
+        android:text="Multiplayer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/hyperlink"
+        android:textColor="#923B6864"
+        android:textColorLink="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="29dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/instagram_logo_png_pic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
