@@ -1,4 +1,4 @@
-Tic Tac Toe
+# Tic Tac Toe 🎮
 
 https://github.com/Ashishprasa/TicTacToeApp-Android/assets/105356967/7ee2f5ec-b6b9-4927-8962-5edc540c4a4e
 
@@ -7,26 +7,27 @@ The app uses a 3x3 grid of buttons. Players take turns clicking on the buttons t
 The app also includes a reset button that allows players to start a new game.
 This app is a simple project, but it helped me to learn the basics of Android development. I hope that other beginners will find it helpful as well.
 
-Features:
-2-player game
-3x3 grid of buttons
-X and O marks
+## Features:
+> 2-player game
+
+> 3x3 grid of buttons
+
+> X and O marks
+
+> Reset button
+
+## Technologies Used:
+> Android Studio
+
+> Java
+
+> XML
 
 
+## To Run the App:
 
+`Clone the GitHub repository.`
 
-Reset button
+`Open the project in Android Studio.`
 
-Technologies Used:
-Android Studio
-Java
-XML
-
-
-To Run the App:
-
-Clone the GitHub repository.
-
-Open the project in Android Studio.
-
-Click the "Run" button.
+`Click the "Run" button.`
