@@ -12,8 +12,8 @@
       "filters": [],
       "attributes": [],
       "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "app-release.apk"
+      "versionName": "2.0",
+      "outputFile": "TicTacToe.apk"
     }
   ],
   "elementType": "File"
