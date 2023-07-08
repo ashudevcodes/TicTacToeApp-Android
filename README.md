@@ -31,3 +31,9 @@ This app is a simple project, but it helped me to learn the basics of Android de
 `Open the project in Android Studio.`
 
 `Click the "Run" button.`
+
+#Or
+
+`Download the app go to Release section`
+
+`Click TicTacToe.apk`
