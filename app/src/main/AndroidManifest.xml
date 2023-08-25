@@ -7,7 +7,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/oig__2_"
-        android:label="TicTak"
+        android:label="TicTakToe"
         android:roundIcon="@drawable/oig__2_"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
