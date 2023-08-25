@@ -1,7 +1,5 @@
 # Tic Tac Toe App 🎮
 
-https://github.com/Ashishprasa/TicTacToeApp-Android/assets/105356967/7ee2f5ec-b6b9-4927-8962-5edc540c4a4e
-
 Welcome to the Tic Tac Toe App for Android! This app was developed by me, Ashish Prasad, as my first Android project. It was created with the intention of learning fundamental concepts of Android app development using Java programming language.
 
 ## Overview
